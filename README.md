@@ -1,10 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# SFA Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este es el frontend para el proyecto de tesis
+Proporciona las vistas de dashboard de paciente y médico, flujo de citas, gestión de la atención médica y visualización de la historia clínica.
 
-## Recommended Setup
+## Requisitos
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Node.js (v18.16.0)
+npm (v9.0.0 o superior)
+Vite
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
-# sfa-frontoffice
+## Instalación
+
+1. Clonar el repositorio
+2. Ingresar al directorio del proyecto
+3. Instalar las dependencias:
+   ```bash
+   npm install
+   ```
+
+## Uso
+
+1. Iniciar el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Configuración
+
+La configuración principal se encuentra en el archivo `vite.config.js`.
