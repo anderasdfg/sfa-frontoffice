@@ -3,6 +3,7 @@ export interface PatientRequest {
 }
 
 export interface PatientResponse {
+  page: number;
   data: {
     id: string;
     historyId: string;
