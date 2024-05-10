@@ -3,7 +3,7 @@ import type { RouteRecordRaw } from 'vue-router';
 export const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: () => import('../../layouts/layout.vue'),
+    component: () => import('../../layouts/LayoutPatient.vue'),
     children: [
       {
         path: '/dashboard-patient',

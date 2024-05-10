@@ -1,3 +1,5 @@
+@import 'styles/_basic.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
