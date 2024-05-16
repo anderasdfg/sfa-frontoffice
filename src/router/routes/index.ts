@@ -11,6 +11,12 @@ export const routes: Array<RouteRecordRaw> = [
         component: () =>
           import('../../modules/dashboard-patient/views/index.vue'),
       },
+      {
+        path: '/dashboard-doctor',
+        name: 'dashboard-doctor-view',
+        component: () =>
+          import('../../modules/dashboard-doctor/views/index.vue'),
+      }
     ],
   },
 ];
