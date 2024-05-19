@@ -16,6 +16,12 @@ export const routes: Array<RouteRecordRaw> = [
         name: 'dashboard-doctor-view',
         component: () =>
           import('../../modules/dashboard-doctor/views/index.vue'),
+      },
+      {
+        path: '/medical-attention',
+        name: 'medical-attention-view',
+        component: () =>
+          import('../../modules/medical-attention/views/index.vue'),
       }
     ],
   },

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const imgSrc = 'https://cdn.discordapp.com/attachments/750116396632899704/1240094286389706834/healthcare-medical-staff-concept-portrait-600nw-2281024823.png?ex=66454f4d&is=6643fdcd&hm=e38144b9dfd8c846b8e69a17383333b7cbd3e8278521ca38513fbad27c3c78c3&';
+const imgSrc = 'https://cdn.discordapp.com/attachments/750116396632899704/1240094286389706834/healthcare-medical-staff-concept-portrait-600nw-2281024823.png?ex=664b3e0d&is=6649ec8d&hm=cd20d4ba425def9788d916ae896358e868816c41d2ebb195035fa171e75c2127&';
 const phone = '(+51) 998865684';
 const email = 'jalejandro04072000@gmail.com';
 </script>
