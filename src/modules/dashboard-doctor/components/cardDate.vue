@@ -1,4 +1,4 @@
-<script setup langs="ts">
+<script setup lang="ts">
 const props = defineProps({
   day: String,
   month: String,

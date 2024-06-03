@@ -22,6 +22,12 @@ export const routes: Array<RouteRecordRaw> = [
         name: 'medical-attention-view',
         component: () =>
           import('../../modules/medical-attention/views/index.vue'),
+      },
+      {
+        path: '/medical-attention/init-attention',
+        name: 'init-attention-view',
+        component: () =>
+          import('../../modules/medical-attention/views/initAttention.vue'),
       }
     ],
   },

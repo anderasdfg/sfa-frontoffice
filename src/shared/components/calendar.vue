@@ -3,7 +3,6 @@ import {
   Day,
   Week,
   Month,
-  Agenda,
   MonthAgenda, ScheduleComponent, ViewsDirective, ViewDirective, ResourcesDirective, ResourceDirective
 } from "@syncfusion/ej2-vue-schedule";
 

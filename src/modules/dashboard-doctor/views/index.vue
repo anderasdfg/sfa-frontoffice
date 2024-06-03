@@ -1,4 +1,4 @@
-<script setup langs="ts">
+<script setup lang="ts">
 import calendar from '@/shared/components/calendar.vue';
 import cardDoctorData from '@/modules/dashboard-doctor/components/cardDoctorData.vue'
 import cardDate from '@/modules/dashboard-doctor/components/cardDate.vue'

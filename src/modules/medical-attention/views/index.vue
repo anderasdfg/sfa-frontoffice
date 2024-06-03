@@ -1,4 +1,4 @@
-<script setup langs="ts">
+<script setup lang="ts">
 const patient = {
     name: 'José Paredes Mesias',
     age: 23,
