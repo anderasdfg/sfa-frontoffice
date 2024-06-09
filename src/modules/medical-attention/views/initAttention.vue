@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import expansionPanel from '@/shared/components/expansionPanel.vue';
 import previousMedication from '@/modules/medical-attention/components/previousMedication.vue';
+import vitalSigns from '@/modules/medical-attention/components/vitalSigns.vue';
+import medicalDiagnostic from '@/modules/medical-attention/components/medicalDiagnostic.vue';
 import { onMounted } from 'vue';
 
 const maxRetriesOnLoadCall = 3;
@@ -18,6 +20,7 @@ const medicacionPrevia = [
       "observaciones": ["El paciente se rehusa a seguir la medicacion previa por el analfabeto", "Segun dicen es mejor por ahí"]
     }
 ]
+const diagnosticoMedico = [];
 let retryOnLadCall = 0;
 const onLoadCall = () => {
     try {
@@ -80,9 +83,7 @@ onMounted(() => {
                     Signos vitales
                 </template>
                 <template v-slot:content>
-                    <div>
-                        <textarea  placeholder="Ingrese la anamnesis..." rows="4"></textarea>
-                    </div>
+                    <vitalSigns></vitalSigns>
                 </template>
             </expansionPanel>
             <expansionPanel>
@@ -90,9 +91,7 @@ onMounted(() => {
                     Diagnóstico
                 </template>
                 <template v-slot:content>
-                    <div>
-                        <textarea  placeholder="Ingrese la anamnesis..." rows="4"></textarea>
-                    </div>
+                    <medicalDiagnostic :diagnosticoMedico="diagnosticoMedico"></medicalDiagnostic>
                 </template>
             </expansionPanel>
             <expansionPanel>

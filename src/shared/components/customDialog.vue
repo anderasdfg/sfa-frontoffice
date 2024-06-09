@@ -1,7 +1,5 @@
 
 <script setup lang="ts">
-import { ref, defineProps, defineEmits } from 'vue';
-
 const props = defineProps({
   show: Boolean,
   width: String
@@ -36,16 +34,20 @@ const close = () => {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--modal-width, 50%);
 }
 
 .modal-body {
